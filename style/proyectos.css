@@ -1,0 +1,73 @@
+.project {
+    border: 3px solid #0a91ab;
+    margin-left: 30px;
+    margin-right: 60px;
+    padding: 10px;
+    height: 30%;
+    margin-bottom: 10px;
+}
+
+.nameProject {
+    padding: 10px;
+}
+
+.portada > img {
+    float: left;
+    padding-right: 30px;
+    width: 15%;
+    height: 60%;
+}
+
+.info {
+    float: left;
+    padding-right: 50px;
+}
+
+h5 {
+    padding: 15px;
+    font-size: 16px;
+}
+
+h5 > span {
+    color: red;
+}
+
+h5 > span > a {
+    color: red;
+    text-decoration-line: underline;
+    text-decoration-color: blue;
+    text-decoration-thickness: 3px;
+}
+
+.sinopsis {
+    padding: 10px;
+    overflow: hidden;
+}
+
+.btn3 {
+    margin-left: 90%;
+    color: black;
+    font-size: 16px;
+    background-color: #ffc045;
+    width: 70px;
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    justify-content: right;
+    padding-right: 5px;
+}
+
+.btn3:hover {
+    margin-left: 90%;
+    color: rgb(255, 0, 0);
+    font-size: 16px;
+    background-color: #d8bc83;
+    width: 70px;
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    justify-content: right;
+    padding-right: 5px;
+}

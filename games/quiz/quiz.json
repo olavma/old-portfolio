@@ -1,0 +1,38 @@
+[
+    {
+        "IdQuest": 0,
+        "Question": "De que color es el caballo blanco de Santiago",
+        "optionA": "Negro",
+        "optionB": "Marron",
+        "optionC": "Blanco",
+        "optionD": "Santiago no tiene caballo",
+        "respuestaCorrecta": "optionC"
+    },
+    {
+        "IdQuest": 1,
+        "Question": "Oro parece, plata no es. ¿Que soy?",
+        "optionA": "Platano",
+        "optionB": "Malvavisco",
+        "optionC": "Codorniz",
+        "optionD": "Ængel",
+        "respuestaCorrecta": "optionA"
+    },
+    {
+        "IdQuest": 2,
+        "Question": "Antes de la llegada de ChatGPT, ¿cual era el mejor amigo de los informaticos?",
+        "optionA": "Google",
+        "optionB": "StackOverflow",
+        "optionC": "Los manuales de lo que estan usando",
+        "optionD": "Google y StackOverflow",
+        "respuestaCorrecta": "optionD"
+    },
+    {
+        "IdQuest": 3,
+        "Question": "¿Cual de estas es una frase de Antonio Recio de la serie La Que Se Avecina",
+        "optionA": "A pagar, a pagar!",
+        "optionB": "Si quiere una cena elegante, llevese una cigala",
+        "optionC": "Vayase, señor cuesta vayase",
+        "optionD": "Apaguen sus telefonos moviles y no fumen. Para hablar me levantan la mano y para insultar tambien me la levantan",
+        "respuestaCorrecta": "optionB"
+    }
+]

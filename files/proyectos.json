@@ -1,0 +1,61 @@
+[{
+        "IdProyecto": 1,
+        "Nombre": "Proyecto Troncal - Wordle",
+        "InfoGeneral": {
+            "Foto": "src/proyectos/wordle.png",
+            "Idiomas": "Castellano, Catalan, Ingles",
+            "Descripcion": "Proyecto troncal para replicar el juego de Wordle en un terminal usando C#."
+
+        },
+        "Enlace": "proyecto.html",
+        "EnlaceProyecto": "https://github.com/olavma/ProjecteTroncal_Wordle",
+        "autor": "Olav Martos Aceña",
+        "Informacion": "info/wordle.pdf"
+    },
+    {
+        "IdProyecto": 2,
+        "Nombre": "Practica Final - M4",
+        "InfoGeneral": {
+            "Foto": "src/proyectos/pracfinalm4.png",
+            "Idiomas": "Castellano",
+            "Descripcion": "Practica final realizada para el Modulo 04 del ciclo de grado medio SMIX"
+
+        },
+        "Enlace": "proyecto.html",
+        "EnlaceProyecto": "https://github.com/olavma/PracticaFinal-Bash",
+        "autor": "Olav Martos Aceña",
+        "Informacion": "info/pracFinalM4.pdf"
+    },
+    {
+        "IdProyecto": 3,
+        "Nombre": "Juego del Coche - JS",
+        "InfoGeneral": {
+            "Foto": "src/proyectos/carGame.png",
+            "Idiomas": "Castellano",
+            "Descripcion": "Juego del coche realizado con HTML, CSS y JS para aprender sobre la POO (Programacion Orientada a Objetos)."
+
+        },
+        "Enlace": "proyecto.html",
+        "EnlaceProyecto": "https://github.com/olavma/JSCarGame",
+        "autor": "Olav Martos Aceña",
+        "Informacion": "info/carGame.pdf",
+        "juego": "game.html",
+        "Jugar": "games/JSCarGame/carGame.html"
+    },
+    {
+        "IdProyecto": 4,
+        "Nombre": "Quiz - JS (Proyecto Final de DAMv1: Juego Perdido)",
+        "InfoGeneral": {
+            "Foto": "src/proyectos/juegoPerdido.png",
+            "Idiomas": "Castellano",
+            "Descripcion": "Minijuego que no se pudo lograr para el proyecto Final de de DAMV"
+
+        },
+        "Enlace": "proyecto.html",
+        "EnlaceProyecto": "https://github.com/olavma/ProyectoDAMv-JuegoPerdido",
+        "autor": "Olav Martos Aceña",
+        "Informacion": "info/juegoPerdido.pdf",
+        "juego": "game.html",
+        "Jugar": "games/quiz/quiz.html"
+    }
+]

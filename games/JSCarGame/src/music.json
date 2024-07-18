@@ -1,0 +1,14 @@
+[
+    {
+        "Nombre": "Partida",
+        "cancion": "src/audio/partida.mp3"
+    },
+    {
+        "Nombre": "Victoria",
+        "cancion": "src/audio/win.wav"
+    },
+    {
+        "Nombre": "Derrota",
+        "cancion": "src/audio/lose.wav"
+    }
+]

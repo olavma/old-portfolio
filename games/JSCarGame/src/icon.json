@@ -1,0 +1,10 @@
+[
+    {
+        "Nombre": "Coche",
+        "imagen": "src/img/coche.png"
+    },
+    {
+        "Nombre": "Camion",
+        "imagen": "src/img/camion.png"
+    }
+]

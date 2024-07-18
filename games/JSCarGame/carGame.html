@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Juego del coche</title>
+</head>
+
+<body>
+    <!-- Historia del juego -->
+    <div id="loreDiv">
+        <h1 class="lore">Historia</h1>
+        <p class="lore">Agente 0404, la agencia de seguridad de tu país te ha encargado una muy importante misión,
+            llevar un objeto altamente peligroso hasta el <strong>Mar del Olvido</strong>, un lugar donde todo lo que
+            es lanzado nunca más puede ser recuperado; y lanzarlo ahí.
+            <br>Lamentablemente, la informacion sobre esta misión se ha filtrado y los enemigos de tu
+            país te estan buscando para hacerse con ese objeto. Evita a toda costa que te atrapen o ocurrira una
+            catastrofe continental.
+        </p>
+
+        <p class="lore">Recuerda 0404, la tecnologia de este siglo ha permitido crear un campo de fuerza, si el campo de
+            fuerza enemigo choca contra el tuyo, te han chocado igualmente. 
+            <br>Hemos implementado en tu vehiculo un detector de campos de fuerza, 
+            el tuyo se vera de color <span style="color:blue;">azul</span> y el del enemigo de color <span style="color: red;">rojo</span>
+            <br>Por lo que, como si estuviesemos en la
+            Pandemia del siglo pasado, en el 2020, manten tu distancia de seguridad.
+
+            <br><br>Buena suerte, agente 0404
+            <br>
+            <small>PD: Recuerda la vida puede ser muy injusta a veces</small>
+        </p>
+        <br>
+        <br>
+        <button id="start">Comenzar mision</button>
+        <a href="aclaraciones.html"><button>Aclaraciones</button></a>
+    </div>
+
+    <!-- Carretera con el jugador (coche) y con el enemigo (camion) -->
+    <div id="contenedor">
+        <audio id="music" src="src/audio/antes de la partida.mp3"></audio> <!-- Intentar que se ejecute en este instante -->
+        <canvas id="coche" width="100" height="100" style="display:none"></canvas>
+        <canvas id="camion0" class="camiones" width="150" height="100" style="display:none"></canvas>
+        <canvas id="camion1" class="camiones" width="150" height="100" style="display:none"></canvas>
+        <canvas id="camion2" class="camiones" width="150" height="100" style="display:none"></canvas>
+
+    </div>
+    <!-- Contador de KM y las velocidad minima y maxima del enemigo -->
+    <div id="cont2">
+        <p><span id="km">5000000000</span>/10110 km</p>
+        <p>Velocidad minima del enemigo: <span id="enemyVMin">0</span> <br>
+            Velocidad maxima del enemigo: <span id="enemyVMax">5000000</span></p>
+    </div>
+    <br><br>
+
+    <!-- Victoria -->
+    <div id="text0">
+        <h1 class="win">Has ganado!</h1>
+        <p class="win">¡Enhorabuena! Has conseguido deshacerte de la bomba atomica en el Mar del Olvido. Has salvado tu continente.
+            <br>Ahora, vas a poder disfrutar del resto de tu vida plagada de lujos y dinero ¡Felicidades!
+        </p>
+    </div>
+    <!-- Derrota. Boton para recargar el juego -->
+    <div id="text">
+        <h1 class="lose">Te has chocado con un camión enemigo</h1>
+        <p class="lose">El objetivo de la mision era deshacerse de una bomba atomica en alta mar, pero al chocarte ha
+            explotado.
+            <br>¡Enhorabuena! ¡Has acabado con la vida de todo tu continente por no esquivar a los enemigos de tu pais!
+        </p>
+        <button id="refresh">Intentarlo otra vez</button>
+    </div>
+</body>
+<script src="coche.js"></script>
+<script src="camion.js"></script>
+<script src="carGame.js"></script>
+<!-- El juego original es Spy Hunter -->
+</html>

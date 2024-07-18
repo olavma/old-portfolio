@@ -1,0 +1,59 @@
+.lore {
+    display: block;
+    text-align: center;
+}
+
+#start {
+    margin-left: 45%;
+    background-color: rgb(152, 152, 152);
+    color: white;
+}
+
+#start:hover {
+    margin-left: 45%;
+    background-color: rgb(98, 98, 98);
+    color: white;
+    cursor: pointer;
+}
+
+#contenedor{
+    display: none;
+    width: 1800px;
+    height: 600px;
+    background-color: black;
+    position: relative;
+    background-image: url("./src/img/carretera.png");
+}
+
+#cont2 {
+    display: none;
+}
+
+#refresh {
+    display: none;
+    width: 100px;
+    height: 50px;
+    margin-left: 45%;
+    border-radius: 10%;
+}
+
+#refresh:hover {
+    display: block;
+    width: 100px;
+    height: 50px;
+    margin-left: 45%;
+    border-radius: 10%;
+    background-color: gainsboro;
+}
+
+#text0 {
+    display: none;
+}
+
+#text {
+    display: none;
+}
+
+.lose {
+    margin-left: 35%;
+}

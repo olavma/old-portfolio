@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Proyectos autor="Olav Martos">
+    <Proyecto idProj="v0001">
+        <Nombre>Proyecto Troncal - Wordle</Nombre>
+        <InfoGeneral>
+            <Foto>src/proyectos/wordle.png</Foto>
+            <Idiomas>Castellano, Catalan, Ingles</Idiomas>
+            <Descripcion>
+                Proyecto troncal para replicar el juego de Wordle en un terminal usando C#.
+            </Descripcion>
+        </InfoGeneral>
+        <Enlace>https://github.com/olavma/ProjecteTroncal_Wordle</Enlace>
+    </Proyecto>
+    <Proyecto idProj="v0002">
+        <Nombre>Practica Final - M4</Nombre>
+        <InfoGeneral>
+            <Foto>src/proyectos/pracfinalm4.png</Foto>
+            <Idiomas>Castellano</Idiomas>
+            <Descripcion>
+                Practica final realizada para el Modulo 04 del ciclo de grado medio SMIX
+            </Descripcion>
+        </InfoGeneral>
+        <Enlace>https://github.com/olavma/PracticaFinal-Bash</Enlace>
+    </Proyecto>
+    <Proyecto idProj="v0003">
+        <Nombre>Juego del Coche - JS</Nombre>
+        <InfoGeneral>
+            <Foto>src/proyectos/carGame.png</Foto>
+            <Idiomas>Castellano</Idiomas>
+            <Descripcion>
+                Juego del coche realizado con HTML, CSS y JS para aprender sobre la POO (Programacion Orientada a Objetos).
+            </Descripcion>
+        </InfoGeneral>
+        <Enlace>https://github.com/olavma/JSCarGame</Enlace>
+    </Proyecto>
+</Proyectos>
